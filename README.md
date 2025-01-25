@@ -8,19 +8,27 @@ This analysis compares reference cell line (RA22-6) to test cases (Gen1LMD and G
   - Visualize UMAP embeddings, feature plots, and coverage plots.
 
 **Features**
+
 **Data Integration:** Merges RNA and ATAC-seq data into a single multi-modal Seurat object.
+
 **Preprocessing:**
   - RNA: Normalized with SCTransform.
   - ATAC: Features filtered by nucleosome signal and TSS enrichment.
+
 **Dimensionality Reduction:**
   - PCA for RNA.
   - LSI for ATAC.
+
 **Cluster Analysis:** Identifies clusters with RNA and ATAC metrics.
+
 **Differential Expression:**
   - RNA: Wilcoxon rank-sum test.
   - ATAC: Identifies regions linked to DEGs.
+
 **Motif Enrichment:** Analyzes enriched motifs in accessible peaks using JASPAR2020.
+
 **Pathway Analysis:** Computes AUC scores for custom gene sets.
+
 **Visualization:**
   - UMAP projections for RNA and ATAC.
   - Feature plots for genes of interest.
