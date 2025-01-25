@@ -34,27 +34,33 @@ This analysis compares reference cell line (RA22-6) to test cases (Gen1LMD and G
   - Feature plots for genes of interest.
   - Coverage plots for ATAC peaks.
 
-**File Outputs
-Key Outputs
-Expression and Accessibility Analysis:**
+**File Outputs**
+
+**Expression and Accessibility Analysis:**
   - RNA_cluster_markers.txt: Differentially expressed RNA markers.
   - ATAC_cluster_markers.txt: Differentially accessible ATAC markers.
+
 **Motif Enrichment:**
   - motif_enrichment_cluster_<cluster_id>.txt: Motif enrichment results for each cluster.
+
 **Meta and Reduction Data:**
   - metadata.txt: Meta information for all cells.
   - reductions_umap.txt: UMAP coordinates (multi-modal).
   - reductions_umap_rna.txt: UMAP coordinates (RNA).
   - reductions_umap_atac.txt: UMAP coordinates (ATAC).
+
 **Gene Links:**
   - links.txt: Peaks linked to DEGs.
   - closest_genes.txt: Closest genes to differential peaks.
 
-**Visualizations
-UMAP Plots:**
+**Visualizations**
+
+**UMAP Plots:**
   - Group cells by their original identity (orig.ident).
   - Display RNA and ATAC clusters (wsnn_res.0.2).
+
 **Feature Plots:**
   - Highlight gene expression for a given gene_of_interest.
+
 **Coverage Plots:**
   - Show chromatin accessibility for specific regions and genes.
