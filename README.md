@@ -7,6 +7,11 @@ This analysis compares reference cell line (RA22-6) to test cases (Gen1LMD and G
   - Perform motif enrichment and pathway analysis.
   - Visualize UMAP embeddings, feature plots, and coverage plots.
 
+**Citation**
+
+**Title:** "Metastatic organotropism in small cell lung cancer"
+**DOI:** 10.1101/2024.10.07.617066v2
+
 **Features**
 
 **Data Integration:** Merges RNA and ATAC-seq data into a single multi-modal Seurat object.
