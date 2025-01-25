@@ -1,20 +1,21 @@
-**Multi-Omics Analysis: RNA and ATAC-seq Integration of SCLC cell lines**
+# **Multi-Omics Analysis: RNA and ATAC-seq Integration of SCLC cell lines**
 
-**Overview**
+## **Overview**
 This analysis compares reference cell line (RA22-6) to test cases (Gen1LMD and Gen1BMD) to:
   - Normalize and preprocess RNA and ATAC sequencing data.
   - Identify differentially expressed genes (DEGs) and accessible chromatin regions.
   - Perform motif enrichment and pathway analysis.
   - Visualize UMAP embeddings, feature plots, and coverage plots.
 
-**Citation**
+## **Citation**
 
 **Title:** "Metastatic organotropism in small cell lung cancer"
-**DOI:** 10.1101/2024.10.07.617066v2
+**DOI:** [10.1101/2024.10.07.617066v2](url)
 
-**Features**
+## **Features**
 
-**Data Integration:** Merges RNA and ATAC-seq data into a single multi-modal Seurat object.
+**Data Integration:** 
+Merges RNA and ATAC-seq data into a single multi-modal Seurat object.
 
 **Preprocessing:**
   - RNA: Normalized with SCTransform.
@@ -39,7 +40,7 @@ This analysis compares reference cell line (RA22-6) to test cases (Gen1LMD and G
   - Feature plots for genes of interest.
   - Coverage plots for ATAC peaks.
 
-**File Outputs**
+## **File Outputs**
 
 **Expression and Accessibility Analysis:**
   - RNA_cluster_markers.txt: Differentially expressed RNA markers.
@@ -58,7 +59,7 @@ This analysis compares reference cell line (RA22-6) to test cases (Gen1LMD and G
   - links.txt: Peaks linked to DEGs.
   - closest_genes.txt: Closest genes to differential peaks.
 
-**Visualizations**
+## **Visualizations**
 
 **UMAP Plots:**
   - Group cells by their original identity (orig.ident).
