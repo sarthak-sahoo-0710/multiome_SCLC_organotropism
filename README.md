@@ -10,7 +10,7 @@ This analysis compares reference cell line (RA22-6) to test cases (Gen1LMD and G
 ## **Citation**
 
 **Title:** "Metastatic organotropism in small cell lung cancer"
-**DOI:** [10.1101/2024.10.07.617066v2](url)
+**DOI:** [10.1101/2024.10.07.617066v2](10.1101/2024.10.07.617066v2)
 
 ## **Features**
 
